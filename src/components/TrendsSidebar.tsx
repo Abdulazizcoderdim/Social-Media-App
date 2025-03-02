@@ -20,6 +20,7 @@ export default function TrendsSidebar() {
   );
 }
 
+
 async function WhoToFollow() {
   const { user } = await validateRequest();
 
